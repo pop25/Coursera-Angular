@@ -20,10 +20,10 @@
         
         var count = 0;
         for (var i = 0; i < mealWords.length; i++) {
-            //console.log(mealWords[i].length);
+            
             if (!(mealWords[i].length === 0)) {
                 count += 1;
-                console.log(count);
+               
                
             }
             console.log("count is " + count);
@@ -42,7 +42,7 @@
                  $scope.id = "style3";
             }
         }
-      // return $scope.message
+     
     }  
   }
     
