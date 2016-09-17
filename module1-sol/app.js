@@ -10,7 +10,7 @@
   function lunchCtrl ($scope) {
       
       $scope.meal = "";
-      $scope.message = "Result";
+      $scope.message = "";
       $scope.style="";
       $scope.id = "";
       
@@ -23,7 +23,6 @@
             
             if (!(mealWords[i].length === 0)) {
                 count += 1;
-               
                
             }
             console.log("count is " + count);
