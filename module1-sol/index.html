@@ -13,11 +13,11 @@
         </header>
         <div>
             <form ng-controller="lunchCtrl">
-                <input type="text" placeholder="type your's favorite dishes for lunch separate with commas" ng-model="meal">
+                <input type="text" placeholder="type your's favorite dishes for lunch separate with commas" ng-model="meal" ng-class="id" >
                 <br>
                 <button ng-click="displayMessage();">Click Here</button>
                 <div>
-                <p class="message">{{message}}</p>
+                <p ng-class="style">{{message}}</p>
                 </div>
                 
             </form>

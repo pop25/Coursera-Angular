@@ -19,13 +19,25 @@ input {
 button {
     margin-top: 20px;
 }
-.message {
+.style1 , .style2 {
     width: 300px;
-    border: 2px solid black;
+   
     padding: 10px;
     text-align: center;
     text-shadow: .3px;
     font-size: 1.2em;
     letter-spacing: 3px;
    margin-left: 475px;
+    }
+
+.style1 {
+     border: 2px solid green;
+    color: green;
+}
+
+.style2 {
+     border: 2px solid red;
+}
+.style3 {
+     border: 2px solid red;
 }
